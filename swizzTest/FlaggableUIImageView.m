@@ -23,6 +23,7 @@
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
+    NSLog(@"In FlaggableUIImageView initWithFrame");
     if (self) {
         // Initialization code
     }
