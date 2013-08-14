@@ -18,6 +18,10 @@
 		B58B6A1017BBF45300E62B2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58B6A0F17BBF45300E62B2A /* Default-568h@2x.png */; };
 		B58B6A1317BBF45300E62B2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B6A1217BBF45300E62B2A /* ViewController.m */; };
 		B58B6A1617BBF45300E62B2A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58B6A1417BBF45300E62B2A /* ViewController.xib */; };
+		B58B6A1E17BBF4CF00E62B2A /* Swizz.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B6A1D17BBF4CF00E62B2A /* Swizz.m */; };
+		B58B6A2217BBFA9300E62B2A /* wallpaper_ST@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58B6A2117BBFA9300E62B2A /* wallpaper_ST@2x.png */; };
+		B58B6A2517BBFB6E00E62B2A /* UIImageView+interceptInit.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B6A2417BBFB6D00E62B2A /* UIImageView+interceptInit.m */; };
+		B58B6A2817BC0F5F00E62B2A /* FlaggableUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B6A2717BC0F5E00E62B2A /* FlaggableUIImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,13 @@
 		B58B6A1117BBF45300E62B2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B58B6A1217BBF45300E62B2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B58B6A1517BBF45300E62B2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B58B6A1C17BBF4CF00E62B2A /* Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizz.h; sourceTree = "<group>"; };
+		B58B6A1D17BBF4CF00E62B2A /* Swizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizz.m; sourceTree = "<group>"; };
+		B58B6A2117BBFA9300E62B2A /* wallpaper_ST@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallpaper_ST@2x.png"; sourceTree = "<group>"; };
+		B58B6A2317BBFB6D00E62B2A /* UIImageView+interceptInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+interceptInit.h"; sourceTree = "<group>"; };
+		B58B6A2417BBFB6D00E62B2A /* UIImageView+interceptInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+interceptInit.m"; sourceTree = "<group>"; };
+		B58B6A2617BC0F5E00E62B2A /* FlaggableUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlaggableUIImageView.h; sourceTree = "<group>"; };
+		B58B6A2717BC0F5E00E62B2A /* FlaggableUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlaggableUIImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,13 @@
 		B58B69FF17BBF45300E62B2A /* swizzTest */ = {
 			isa = PBXGroup;
 			children = (
+				B58B6A2617BC0F5E00E62B2A /* FlaggableUIImageView.h */,
+				B58B6A2717BC0F5E00E62B2A /* FlaggableUIImageView.m */,
+				B58B6A2317BBFB6D00E62B2A /* UIImageView+interceptInit.h */,
+				B58B6A2417BBFB6D00E62B2A /* UIImageView+interceptInit.m */,
+				B58B6A2117BBFA9300E62B2A /* wallpaper_ST@2x.png */,
+				B58B6A1C17BBF4CF00E62B2A /* Swizz.h */,
+				B58B6A1D17BBF4CF00E62B2A /* Swizz.m */,
 				B58B6A0817BBF45300E62B2A /* AppDelegate.h */,
 				B58B6A0917BBF45300E62B2A /* AppDelegate.m */,
 				B58B6A1117BBF45300E62B2A /* ViewController.h */,
@@ -163,6 +181,7 @@
 				B58B6A0E17BBF45300E62B2A /* Default@2x.png in Resources */,
 				B58B6A1017BBF45300E62B2A /* Default-568h@2x.png in Resources */,
 				B58B6A1617BBF45300E62B2A /* ViewController.xib in Resources */,
+				B58B6A2217BBFA9300E62B2A /* wallpaper_ST@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +195,9 @@
 				B58B6A0617BBF45300E62B2A /* main.m in Sources */,
 				B58B6A0A17BBF45300E62B2A /* AppDelegate.m in Sources */,
 				B58B6A1317BBF45300E62B2A /* ViewController.m in Sources */,
+				B58B6A1E17BBF4CF00E62B2A /* Swizz.m in Sources */,
+				B58B6A2517BBFB6E00E62B2A /* UIImageView+interceptInit.m in Sources */,
+				B58B6A2817BC0F5F00E62B2A /* FlaggableUIImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
